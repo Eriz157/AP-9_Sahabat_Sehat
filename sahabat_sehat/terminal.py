@@ -2,6 +2,7 @@ from food import list_foods, show_food_detail
 from quiz import quiz_Normal,quiz_Easy, quiz_Hard
 from decorasi import decorate, validasi_menu, validasi_quiz, validasi_tipe_quiz
 from food import FOODS
+from BMI import program_bmi
 
 decorate()
 while True:
@@ -35,7 +36,7 @@ while True:
         elif tipe == 3:
             quiz_Hard(num)
     elif pilih == '3':
-        pass
+        program_bmi()
 
     elif pilih == '4':
         pass
